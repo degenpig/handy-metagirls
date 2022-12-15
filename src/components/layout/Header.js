@@ -70,19 +70,6 @@ export default function SimpleBottomNavigation() {
           justifyContent={"center"}
           alignItems="center"
         >
-          {userContext.isMintPage ? (
-            <></>
-          ) : (
-            <Link to="/mint">
-              <Button
-                variant="contained"
-                color="error"
-                style={{ fontFamily: "Montserrat" }}
-              >
-                Mint Now
-              </Button>
-            </Link>
-          )}
         </Grid>
         <Grid
           container
